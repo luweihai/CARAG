@@ -1,6 +1,6 @@
 # Earnings Call Agentic RAG
 
-A research implementation of context-enriched agentic Retrieval Augmented Generation (RAG) for analyzing earnings call transcripts and predicting post-earnings price movements.
+Decoding the Market's Pulse: Context-Enriched Agentic Retrieval Augmented Generation for Predicting Post-Earnings Price Shocks (EACL 2026)
 
 ## Overview
 
