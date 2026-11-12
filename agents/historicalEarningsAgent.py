@@ -97,8 +97,6 @@ class HistoricalEarningsAgent:
                     model="text-embedding-3-small",
                     input=text
                 ).data[0].embedding
-            from neo4j import GraphDatabase
-            creds = json.loads(Path(self.driver._uri.split('bolt://')[-1].split(':')[0] + '/credentials.json').read_text()) if hasattr(self.driver, '_uri') else json.loads(Path('credentials.json').read_text())
             driver = self.driver
             with driver.session() as session:
                 try:
